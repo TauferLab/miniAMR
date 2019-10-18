@@ -1,5 +1,5 @@
-CC   = cc
-LD   = cc
+CC   = mpicc
+LD   = mpicc
 CPPFLAGS = -I.
 CFLAGS = -O3
 LDFLAGS =
@@ -9,7 +9,7 @@ EXEC = ma.x
 
 OBJS = block.o check_sum.o comm_block.o comm.o comm_parent.o comm_refine.o \
        comm_util.o driver.o init.o main.o move.o pack.o plot.o profile.o \
-       rcb.o refine.o stencil.o target.o util.o
+       rcb.o refine.o stencil.o target.o util.o instrumentation.o
 
 $(EXEC): $(OBJS)
 	$(LD) $(LDFLAGS) -o $@ $(OBJS) $(LDLIBS)
@@ -21,6 +21,8 @@ clean:
 	rm *.o ma.x
 
 # need dependencies
+
+instrumentation.o: 
 
 block.o: block.h proto.h comm.h timer.h
 

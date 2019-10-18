@@ -32,10 +32,14 @@
 #include "proto.h"
 #include "timer.h"
 
+#include "instrumentation.h"
+
 // This file contains routines that determine which blocks are going to
 // be refined and which are going to be coarsened.
 void refine(int ts)
 {
+  start_refine_timing();
+
    int i, j, n, in, min_b, max_b, sum_b, num_refine_step, num_split,
        nm_r, nm_c, nm_t, nc_t, nc_u, nc[5], nca[5], ncn[5], ncx[5], done;
    double ratio, tp, tm, tu, tp1, tm1, tu1, t1, t2, t3, t4, t5;
@@ -307,6 +311,8 @@ void refine(int ts)
    check_buff_size();
    t5 = timer();
    timer_refine_cc += t5 - t1 - t4;
+
+   stop_refine_timing();
 }
 
 int refine_level(void)

@@ -47,6 +47,7 @@
 // where their parent is.
 void load_balance(void)
 {
+
    int npx1, npy1, npz1, nfac, fac[25], fact;
    int i, j, m, n, dir, in;
    double t1, t2, t3, t4, t5, tp, tm, tu;
