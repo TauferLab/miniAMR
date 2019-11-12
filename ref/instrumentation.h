@@ -8,11 +8,26 @@
 
 static FILE* event_file;
 static char event_file_name[128];
-static time_t run_start_time;
-static time_t refine_time_start;
-static time_t refine_time_stop;
-static time_t lb_time_start;
-static time_t lb_time_stop;
+
+// Timestamps for start of run
+// These will be set exactly once
+static struct timespec run_start_time_ts;
+static double run_start_time_sec;
+static double run_start_time_nsec;
+static double run_start_time;
+
+static struct timespec refine_start_time_ts;
+static double refine_start_time_sec;
+static double refine_start_time_nsec;
+static double refine_start_time;
+
+static struct timespec refine_stop_time_ts;
+static double refine_stop_time_sec;
+static double refine_stop_time_nsec;
+static double refine_stop_time;
+
+static double refine_elapsed_time;
+
 static int refine_step_idx = 0;
 
 void init_instrumentation();

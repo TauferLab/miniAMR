@@ -1,9 +1,9 @@
 CC   = mpicc
 LD   = mpicc
-CPPFLAGS = -I.
+CPPFLAGS = -I. -std=gnu11
 CFLAGS = -O3
-LDFLAGS =
-LDLIBS = -lm
+LDFLAGS = 
+LDLIBS = -lm -lrt
 
 EXEC = ma.x
 
