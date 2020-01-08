@@ -34,7 +34,7 @@
 #include "timer.h"
 #include "proto.h"
 
-#include "instrumentation.h"
+//#include "instrumentation.h"
 
 int main(int argc, char** argv)
 {
