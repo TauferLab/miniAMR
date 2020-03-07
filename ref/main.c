@@ -39,7 +39,7 @@
 int main(int argc, char** argv)
 {
    int i, ierr, object_num;
-   int params[37];
+   int params[38];
    double *objs;
 #include "param.h"
 
@@ -151,6 +151,8 @@ int main(int argc, char** argv)
             objects[object_num].inc[1] = atof(argv[++i]);
             objects[object_num].inc[2] = atof(argv[++i]);
             object_num++;
+         } else if (!strcmp(argv[i], "--log")) {
+            log_nondet = 1;
          } else if (!strcmp(argv[i], "--help")) {
             print_help_message();
             MPI_Abort(MPI_COMM_WORLD, -1);
@@ -208,8 +210,9 @@ int main(int argc, char** argv)
       params[34] = refine_ghost;
       params[35] = use_time;
       params[36] = end_time;
+      params[37] = log_nondet;
 
-      MPI_Bcast(params, 37, MPI_INT, 0, MPI_COMM_WORLD);
+      MPI_Bcast(params, 38, MPI_INT, 0, MPI_COMM_WORLD);
 
       objs = (double *) ma_malloc(14*num_objects*sizeof(double),
                                   __FILE__, __LINE__);
@@ -233,7 +236,7 @@ int main(int argc, char** argv)
       MPI_Bcast(objs, (14*num_objects), MPI_DOUBLE, 0, MPI_COMM_WORLD);
       free(objs);
    } else {
-      MPI_Bcast(params, 37, MPI_INT, 0, MPI_COMM_WORLD);
+      MPI_Bcast(params, 38, MPI_INT, 0, MPI_COMM_WORLD);
       max_num_blocks = params[ 0];
       target_active = params[ 1];
       num_refine = params[ 2];
@@ -271,6 +274,7 @@ int main(int argc, char** argv)
       refine_ghost = params[34];
       use_time = params[35];
       end_time = params[36];
+      log_nondet = params[37];
 
       objects = (object *) ma_malloc(num_objects*sizeof(object),
                                      __FILE__, __LINE__);
@@ -297,6 +301,15 @@ int main(int argc, char** argv)
       }
       free(objs);
    }
+
+if(log_nondet) {
+char log_name[23];
+sprintf(log_name, "miniAMR_%d.log", my_pe);
+printf("%s", log_name);
+log_file = fopen(log_name, "w"); 
+fprintf(log_file, "%s\n", log_name);
+}
+
    for (object_num = 0; object_num < num_objects; object_num++)
       for (i = 0; i < 3; i++) {
          objects[object_num].orig_cen[i] = objects[object_num].cen[i];

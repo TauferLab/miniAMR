@@ -24,6 +24,9 @@
 //
 // ************************************************************************
 
+#include "stdio.h"
+FILE* log_file;
+int log_nondet;
 double average[131];
 double stddev[128];
 double minimum[128];

@@ -102,6 +102,8 @@ void driver(void)
       if (num_refine && !uniform_refine) {
          move(delta);
          if (!(ts%refine_freq))
+if(log_nondet)
+fprintf(log_file, "Time step: %d\n", ts);
             refine(ts);
       }
       t2 = timer();

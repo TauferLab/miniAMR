@@ -27,6 +27,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <mpi.h>
+#include <time.h>
 
 #include "block.h"
 #include "comm.h"
@@ -113,6 +114,8 @@ void load_balance(void)
       t3 = t5 - t4;
       t4 = t5;
 
+if(log_nondet)
+fprintf(log_file, "\t\t Load Balancing\n");
       move_blocks(&tp, &tm, &tu);
    }
    t5 = timer() - t4;
@@ -125,7 +128,7 @@ void load_balance(void)
    timer_lb_ma += t5;
 }
 
-void exchange(double *tp, double *tm, double *tu)
+void exchange(double *tp, double *tm, double *tu, int* num_send, int* num_recv)
 {
    int f, s, sp, fp, i, j[25], l, rb, lev, block_size, type, type1,
        par[25], start[25];
@@ -157,6 +160,7 @@ void exchange(double *tp, double *tm, double *tu)
                if (num_active < max_num_blocks) {
                   MPI_Irecv(recv_buff, block_size, MPI_DOUBLE, start[l], type,
                             MPI_COMM_WORLD, request);
+num_recv[start[l]]++;
                   rb = 1;
                } else
                   rb = 0;
@@ -180,6 +184,7 @@ void exchange(double *tp, double *tm, double *tu)
                   blocks[sp].number = -1;
                   MPI_Send(send_buff, block_size, MPI_DOUBLE, start[l], type,
                            MPI_COMM_WORLD);
+num_send[start[l]]++;
                   if (fp > sp)
                      fp = sp;
                   sp++;
@@ -616,6 +621,15 @@ void move_blocks(double *tp, double *tm, double *tu)
    comm_parent_proc();
    update_comm_list();
 
+int num_send[num_pes];
+int num_recv[num_pes];
+if(log_nondet) {
+  int iter;
+  for(iter=0; iter<num_pes; iter++) {
+    num_send[iter] = 0;
+    num_recv[iter] = 0;
+  }
+}
    // go through blocks being moved and reset their nei[] list
    // (partially done above with comm_proc) and the lists of their neighbors
    for (in = 0; in < sorted_index[num_refine+1]; in++) {
@@ -692,15 +706,30 @@ void move_blocks(double *tp, double *tm, double *tu)
       }
    }
 
+if(log_nondet) {
+  fprintf(log_file, "\t\t\t Timestamp: %f\n", (double)clock()/CLOCKS_PER_SEC);
+}
+
    /* swap blocks - if space is tight, may take multiple passes */
    n = 0;
    do {
-      exchange(tp, tm, tu);
+      exchange(tp, tm, tu, num_send, num_recv);
       k = n;
       for (n1 = i = 0; i < num_pes; i++)
          n1 += from[i];
       MPI_Allreduce(&n1, &n, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
    } while (n && k != n);
+
+if(log_nondet) {
+  int sum_send=0, sum_recv=0;
+  int iter;
+  for(iter=0; iter<num_pes; iter++) {
+    sum_send += num_send[iter];
+    sum_recv += num_recv[iter];
+    fprintf(log_file, "\t\t\t Rank %d sent %d blocks to %d\n", my_pe, num_send[iter], iter);
+  }
+  fprintf(log_file, "\t\t\t Total: Rank %d\tsent: %d\trecv: %d\n", my_pe, sum_send, sum_recv);
+}
 
    if (n && !my_pe) {
       printf("Error: exchange blocks not complete - increase max_blocks\n");

@@ -99,7 +99,7 @@ void init_profile(void);
 
 // rcb.c
 void load_balance(void);
-void exchange(double *, double *, double *);
+void exchange(double *, double *, double *, int *, int *);
 void sort(int, int, int);
 int factor(int, int *);
 int find_dir(int, int, int, int);

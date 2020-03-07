@@ -99,6 +99,8 @@ void refine(int ts)
       MPI_Allreduce(&sum_b, &min_b, 1, MPI_INT, MPI_MAX, MPI_COMM_WORLD);
       if (max_b > ((int) (0.75*((double) max_num_blocks))) ||
           min_b >= (max_num_parents-1)) {
+if(log_nondet)
+fprintf(log_file, "\t Refine step %d\n", i);
          redistribute_blocks(&tp1, &tm1, &tu1, &t3, &nm_r, num_split);
          timer_rs_ca += t3;
          nrrs++;
@@ -122,6 +124,8 @@ void refine(int ts)
       t4 += timer() - t2;
 
       t2 = timer();
+if(log_nondet)
+fprintf(log_file, "\t Refine step %d\n", i);
       redistribute_blocks(&tp, &tm, &tu, &t3, &nm_c, 0);
       t3 = timer() - t3;
       consolidate_blocks();
@@ -153,6 +157,10 @@ void refine(int ts)
          if (!uniform_refine && max_b > (min_b + 1) &&
              ratio > ((double) inbalance/100.0)) {
             nlbs++;
+if(log_nondet) {
+fprintf(log_file, "\t Refine step %d\n", i);
+fprintf(log_file, "\t\t Imbalance ratio: %f\n", ratio);
+}
             t2 = timer();
             load_balance();
             t5 = timer();
@@ -229,6 +237,10 @@ void refine(int ts)
       if (!uniform_refine &&
           (max_b > (min_b + 1) && ratio > ((double) inbalance/100.0))) {
          nlbs++;
+if(log_nondet) {
+fprintf(log_file, "\t Post refine load balance\n");
+fprintf(log_file, "\t\t Imbalance ratio: %f\n", ratio);
+}
          t2 = timer();
          load_balance();
          t5 = timer();
@@ -679,6 +691,8 @@ void redistribute_blocks(double *tp, double *tm, double *tu, double *time,
       *time = timer() - t1;
 
       MPI_Alltoall(from, 1, MPI_INT, to, 1, MPI_INT, MPI_COMM_WORLD);
+if(log_nondet)
+  fprintf(log_file, "\t\t Redistribute blocks\n");
       move_blocks(tp, tm, tu);
    } else
       *time = timer() - t1;
