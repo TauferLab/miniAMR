@@ -125,3 +125,4 @@ void zero_refine(void);
 // util.c
 double timer(void);
 void *ma_malloc(size_t, char *, int);
+void dump_binary(int timestep);

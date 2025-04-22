@@ -54,3 +54,36 @@ void *ma_malloc(size_t size, char *file, int line)
 
    return(ptr);
 }
+
+void dump_binary(int timestep)
+{
+   FILE *fp;
+   char  filename[256];
+
+   sprintf(filename, "dump_%d.bin", timestep);
+   fp = fopen(filename, "wb");
+   if (!fp) {
+      fprintf(stderr, "PE %d: cannot open %s\n", my_pe, filename);
+      MPI_Abort(MPI_COMM_WORLD, -1);
+   }
+
+   fwrite(&num_blocks[0], sizeof(num_blocks[0]), 1, fp);
+   fwrite(&num_blocks[1], sizeof(num_blocks[1]), 1, fp);
+   fwrite(&num_blocks[2], sizeof(num_blocks[2]), 1, fp);
+
+   const int nx = x_block_size, ny = y_block_size, nz = z_block_size;
+
+   for (int idx = 0; idx < sorted_index[num_refine + 1]; ++idx) {
+      block *bp = &blocks[ sorted_list[idx].n ];
+      if (bp->number < 0)
+         continue;
+
+      for (int v = 0; v < num_vars; ++v)
+         for (int i = 1; i <= nx; ++i)
+            for (int j = 1; j <= ny; ++j)
+               fwrite(&bp->array[v][i][j][1], sizeof(double), nz, fp);
+   }
+
+   fclose(fp);
+   if (!my_pe) printf("Wrote %s\n", filename);
+}
