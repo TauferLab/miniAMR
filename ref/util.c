@@ -78,7 +78,7 @@ void dump_binary(int timestep)
      for (in = 0; in < active_blocks_on_pe; in++) {
           bp = &blocks[sorted_list[in].n];
 
-          for (int v = 0; v < num_vars; v++) {
+          for (int v = 0; v < 1; v++) {
                 for (int i = 0; i < x_block_size; i++) {
                      for (int j = 0; j < y_block_size; j++) {
                           write_count = fwrite(&bp->array[v][i + 1][j + 1][1], sizeof(double), z_block_size, fp);
