@@ -49,8 +49,9 @@ void driver(void)
 
    if (num_refine || uniform_refine) {
       refine(0);
-      dump_binary(0);
    }
+   dump_binary(0);
+   
    t2 = timer();
    timer_refine_all += t2 - t1;
 
@@ -106,9 +107,14 @@ void driver(void)
          move(delta);
          if (!(ts%refine_freq)) {
             refine(ts);
-            dump_binary(ts);
          }
       }
+      
+      // Dump binary simulation data
+      if (!(ts % refine_freq)) {
+         dump_binary(ts);
+      }
+
       t2 = timer();
       timer_refine_all += t2 - t4;
 

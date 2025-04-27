@@ -26,6 +26,9 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include <errno.h> 
+#include <unistd.h> 
 #include <mpi.h>
 
 #include "block.h"
@@ -57,33 +60,40 @@ void *ma_malloc(size_t size, char *file, int line)
 
 void dump_binary(int timestep)
 {
-   FILE *fp;
-   char  filename[256];
+     char filename[256];
+     FILE *fp;
+     int in;
+     block *bp;
+     size_t write_count;
+     int active_blocks_on_pe = sorted_index[num_refine + 1]; 
 
-   sprintf(filename, "dump_%d.bin", timestep);
-   fp = fopen(filename, "wb");
-   if (!fp) {
-      fprintf(stderr, "PE %d: cannot open %s\n", my_pe, filename);
-      MPI_Abort(MPI_COMM_WORLD, -1);
-   }
+     sprintf(filename, "dump_ts%04d_pe%06d.bin", timestep, my_pe);
 
-   fwrite(&num_blocks[0], sizeof(num_blocks[0]), 1, fp);
-   fwrite(&num_blocks[1], sizeof(num_blocks[1]), 1, fp);
-   fwrite(&num_blocks[2], sizeof(num_blocks[2]), 1, fp);
+     fp = fopen(filename, "wb");
+     if (fp == NULL) {
+          fprintf(stderr, "PE %d ERROR: Could not open file %s for writing: %s\n", my_pe, filename, strerror(errno));
+          MPI_Abort(MPI_COMM_WORLD, 1);
+     }
 
-   const int nx = x_block_size, ny = y_block_size, nz = z_block_size;
+     for (in = 0; in < active_blocks_on_pe; in++) {
+          bp = &blocks[sorted_list[in].n];
 
-   for (int idx = 0; idx < sorted_index[num_refine + 1]; ++idx) {
-      block *bp = &blocks[ sorted_list[idx].n ];
-      if (bp->number < 0)
-         continue;
+          for (int v = 0; v < num_vars; v++) {
+                for (int i = 0; i < x_block_size; i++) {
+                     for (int j = 0; j < y_block_size; j++) {
+                          write_count = fwrite(&bp->array[v][i + 1][j + 1][1], sizeof(double), z_block_size, fp);
+                          if (write_count != z_block_size) {
+                                 fprintf(stderr, "PE %d ERROR: Failed to write full data for block %lld, var %d, i=%d, j=%d to file %s. Wrote %zu elements.\n",
+                                            my_pe, (long long)bp->number, v, i, j, filename, write_count);
+                                 fclose(fp);
+                                 MPI_Abort(MPI_COMM_WORLD, 1);
+                          }
+                     }
+                }
+          }
+     }
 
-      for (int v = 0; v < num_vars; ++v)
-         for (int i = 1; i <= nx; ++i)
-            for (int j = 1; j <= ny; ++j)
-               fwrite(&bp->array[v][i][j][1], sizeof(double), nz, fp);
-   }
-
-   fclose(fp);
-   if (!my_pe) printf("Wrote %s\n", filename);
+     if (fclose(fp) != 0) {
+            fprintf(stderr, "PE %d ERROR: Could not close file %s properly: %s\n", my_pe, filename, strerror(errno));
+     }
 }
