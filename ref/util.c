@@ -66,7 +66,7 @@ void dump_binary(int timestep)
      block *bp;
      int active_blocks_on_pe = sorted_index[num_refine + 1];
 
-     int precision = 8; // Update to be based on error tolerance
+     int precision = 2; // Update to be based on error tolerance
  
      /* construct .txt filename */
      sprintf(filename, "dump_ts%04d_pe%06d.txt", timestep, my_pe);
@@ -88,7 +88,7 @@ void dump_binary(int timestep)
                      for (k = 1; k <= z_block_size; k++) {
                          double val = bp->array[v][i+1][j+1][k];
                          /* "%.*f" prints exactly 'precision' decimals, padding with zeros */
-                         if (fprintf(fp, "%.*f\n", precision, val) < 0) {
+                         if (fprintf(fp, "%.*f", precision, val) < 0) {
                              fprintf(stderr,
                                      "PE %d ERROR: Failed to write text data for "
                                      "block %lld, var %d, i=%d, j=%d, k=%d to file %s\n",
