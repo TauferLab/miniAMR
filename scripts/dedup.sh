@@ -7,7 +7,8 @@ gpu_dedup_path="${RESEARCH}/dynamic_chunking/gpu-dedup/build"
 # Chunk size might need adjustment based on typical data size and desired granularity
 # chunk_size=10000
 # chunk_size=1280
-chunk_size=512
+# chunk_size=512 #(4*4*4)*8
+chunk_size=64
 cd $gpu_dedup_path
 
 # checkpoints=($miniamr_path/checkpoint_ts*)
@@ -18,7 +19,7 @@ checkpoints=($miniamr_path/dump_ts*)
 ./dedup_files \
   -a tree \
   -c "$chunk_size" \
-  --dtype f \
+  --dtype d \
   "${checkpoints[@]}"
 
 # ./dedup_files \

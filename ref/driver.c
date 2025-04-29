@@ -106,7 +106,17 @@ void driver(void)
       if (num_refine && !uniform_refine) {
          move(delta);
          if (!(ts%refine_freq)) {
+            double refine_start = timer();
             refine(ts);
+            double refine_end = timer();
+            double refine_time = refine_end - refine_start;
+            FILE *fp = fopen("refine_times.txt", "a");
+            if (fp != NULL) {
+                fprintf(fp, "Refinement at timestep %d took %.6f seconds\n", ts, refine_time);
+                fclose(fp);
+            } else {
+                fprintf(stderr, "PE %d ERROR: Unable to open refine_times.txt for writing\n", my_pe);
+            }
          }
       }
       
