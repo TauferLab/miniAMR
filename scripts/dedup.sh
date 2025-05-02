@@ -18,7 +18,7 @@ for checkpoint in "${checkpoints[@]}"; do
   ./dedup_files \
     -a tree \
     -c "$chunk_size" \
-    -e 0.1 \
+    -e 0.00001 \
     --fuzzy-hash \
     --dtype d \
     $checkpoint
