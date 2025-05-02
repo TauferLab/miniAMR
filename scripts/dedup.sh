@@ -4,27 +4,32 @@
 
 gpu_dedup_path="${RESEARCH}/dynamic_chunking/gpu-dedup/build"
 
-# Chunk size might need adjustment based on typical data size and desired granularity
 # chunk_size=10000
 # chunk_size=1280
 # chunk_size=512 #(4*4*4)*8
-chunk_size=64
+chunk_size=16
 cd $gpu_dedup_path
 
 # checkpoints=($miniamr_path/checkpoint_ts*)
 checkpoints=($miniamr_path/dump_ts*)
 # checkpoints=(/home/zmalk/Research/dynamic_chunking/gpu-dedup/build/data/1024/100_0_0/*)
 
-# Run the deduplication tool on the sorted list of combined checkpoint files
-./dedup_files \
-  -a tree \
-  -c "$chunk_size" \
-  --dtype d \
-  "${checkpoints[@]}"
+for checkpoint in "${checkpoints[@]}"; do
+  ./dedup_files \
+    -a tree \
+    -c "$chunk_size" \
+    -e 0.1 \
+    --fuzzy-hash \
+    --dtype d \
+    $checkpoint
+done
 
 # ./dedup_files \
-#   -a list \
+#   -a tree \
 #   -c "$chunk_size" \
+#   -e 0.01 \
+#   --fuzzy-hash \
+#   --dtype d \
 #   "${checkpoints[@]}"
 
 # =====================================

@@ -1,667 +1,4 @@
 Running miniAMR...
-Number of blocks at level 0 at timestep 0 is 1
-Number of blocks at level 1 at timestep 0 is 0
-Number of blocks at level 2 at timestep 0 is 0
-Number of blocks at level 3 at timestep 0 is 0
-Number of blocks at level 4 at timestep 0 is 0
-Number of blocks at level 5 at timestep 0 is 0
-Total number of blocks at timestep 0 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 1 is 1
-Number of blocks at level 1 at timestep 1 is 0
-Number of blocks at level 2 at timestep 1 is 0
-Number of blocks at level 3 at timestep 1 is 0
-Number of blocks at level 4 at timestep 1 is 0
-Number of blocks at level 5 at timestep 1 is 0
-Total number of blocks at timestep 1 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 2 is 1
-Number of blocks at level 1 at timestep 2 is 0
-Number of blocks at level 2 at timestep 2 is 0
-Number of blocks at level 3 at timestep 2 is 0
-Number of blocks at level 4 at timestep 2 is 0
-Number of blocks at level 5 at timestep 2 is 0
-Total number of blocks at timestep 2 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 3 is 1
-Number of blocks at level 1 at timestep 3 is 0
-Number of blocks at level 2 at timestep 3 is 0
-Number of blocks at level 3 at timestep 3 is 0
-Number of blocks at level 4 at timestep 3 is 0
-Number of blocks at level 5 at timestep 3 is 0
-Total number of blocks at timestep 3 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 4 is 1
-Number of blocks at level 1 at timestep 4 is 0
-Number of blocks at level 2 at timestep 4 is 0
-Number of blocks at level 3 at timestep 4 is 0
-Number of blocks at level 4 at timestep 4 is 0
-Number of blocks at level 5 at timestep 4 is 0
-Total number of blocks at timestep 4 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 5 is 1
-Number of blocks at level 1 at timestep 5 is 0
-Number of blocks at level 2 at timestep 5 is 0
-Number of blocks at level 3 at timestep 5 is 0
-Number of blocks at level 4 at timestep 5 is 0
-Number of blocks at level 5 at timestep 5 is 0
-Total number of blocks at timestep 5 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 6 is 1
-Number of blocks at level 1 at timestep 6 is 0
-Number of blocks at level 2 at timestep 6 is 0
-Number of blocks at level 3 at timestep 6 is 0
-Number of blocks at level 4 at timestep 6 is 0
-Number of blocks at level 5 at timestep 6 is 0
-Total number of blocks at timestep 6 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 7 is 1
-Number of blocks at level 1 at timestep 7 is 0
-Number of blocks at level 2 at timestep 7 is 0
-Number of blocks at level 3 at timestep 7 is 0
-Number of blocks at level 4 at timestep 7 is 0
-Number of blocks at level 5 at timestep 7 is 0
-Total number of blocks at timestep 7 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 8 is 0
-Number of blocks at level 1 at timestep 8 is 7
-Number of blocks at level 2 at timestep 8 is 7
-Number of blocks at level 3 at timestep 8 is 7
-Number of blocks at level 4 at timestep 8 is 7
-Number of blocks at level 5 at timestep 8 is 8
-Total number of blocks at timestep 8 is 36
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 9 is 0
-Number of blocks at level 1 at timestep 9 is 4
-Number of blocks at level 2 at timestep 9 is 28
-Number of blocks at level 3 at timestep 9 is 28
-Number of blocks at level 4 at timestep 9 is 28
-Number of blocks at level 5 at timestep 9 is 32
-Total number of blocks at timestep 9 is 120
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 10 is 0
-Number of blocks at level 1 at timestep 10 is 4
-Number of blocks at level 2 at timestep 10 is 28
-Number of blocks at level 3 at timestep 10 is 25
-Number of blocks at level 4 at timestep 10 is 40
-Number of blocks at level 5 at timestep 10 is 128
-Total number of blocks at timestep 10 is 225
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 11 is 0
-Number of blocks at level 1 at timestep 11 is 4
-Number of blocks at level 2 at timestep 11 is 28
-Number of blocks at level 3 at timestep 11 is 22
-Number of blocks at level 4 at timestep 11 is 49
-Number of blocks at level 5 at timestep 11 is 248
-Total number of blocks at timestep 11 is 351
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 12 is 0
-Number of blocks at level 1 at timestep 12 is 4
-Number of blocks at level 2 at timestep 12 is 22
-Number of blocks at level 3 at timestep 12 is 60
-Number of blocks at level 4 at timestep 12 is 114
-Number of blocks at level 5 at timestep 12 is 368
-Total number of blocks at timestep 12 is 568
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 13 is 0
-Number of blocks at level 1 at timestep 13 is 4
-Number of blocks at level 2 at timestep 13 is 22
-Number of blocks at level 3 at timestep 13 is 49
-Number of blocks at level 4 at timestep 13 is 172
-Number of blocks at level 5 at timestep 13 is 608
-Total number of blocks at timestep 13 is 855
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 14 is 0
-Number of blocks at level 1 at timestep 14 is 4
-Number of blocks at level 2 at timestep 14 is 22
-Number of blocks at level 3 at timestep 14 is 46
-Number of blocks at level 4 at timestep 14 is 172
-Number of blocks at level 5 at timestep 14 is 800
-Total number of blocks at timestep 14 is 1044
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 15 is 0
-Number of blocks at level 1 at timestep 15 is 1
-Number of blocks at level 2 at timestep 15 is 39
-Number of blocks at level 3 at timestep 15 is 87
-Number of blocks at level 4 at timestep 15 is 265
-Number of blocks at level 5 at timestep 15 is 1016
-Total number of blocks at timestep 15 is 1408
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 16 is 0
-Number of blocks at level 1 at timestep 16 is 1
-Number of blocks at level 2 at timestep 16 is 36
-Number of blocks at level 3 at timestep 16 is 101
-Number of blocks at level 4 at timestep 16 is 303
-Number of blocks at level 5 at timestep 16 is 1352
-Total number of blocks at timestep 16 is 1793
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 17 is 0
-Number of blocks at level 1 at timestep 17 is 1
-Number of blocks at level 2 at timestep 17 is 33
-Number of blocks at level 3 at timestep 17 is 111
-Number of blocks at level 4 at timestep 17 is 379
-Number of blocks at level 5 at timestep 17 is 1640
-Total number of blocks at timestep 17 is 2164
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 18 is 0
-Number of blocks at level 1 at timestep 18 is 1
-Number of blocks at level 2 at timestep 18 is 24
-Number of blocks at level 3 at timestep 18 is 165
-Number of blocks at level 4 at timestep 18 is 484
-Number of blocks at level 5 at timestep 18 is 1952
-Total number of blocks at timestep 18 is 2626
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 19 is 0
-Number of blocks at level 1 at timestep 19 is 1
-Number of blocks at level 2 at timestep 19 is 25
-Number of blocks at level 3 at timestep 19 is 145
-Number of blocks at level 4 at timestep 19 is 538
-Number of blocks at level 5 at timestep 19 is 2288
-Total number of blocks at timestep 19 is 2997
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 20 is 0
-Number of blocks at level 1 at timestep 20 is 0
-Number of blocks at level 2 at timestep 20 is 30
-Number of blocks at level 3 at timestep 20 is 147
-Number of blocks at level 4 at timestep 20 is 666
-Number of blocks at level 5 at timestep 20 is 2672
-Total number of blocks at timestep 20 is 3515
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 21 is 0
-Number of blocks at level 1 at timestep 21 is 0
-Number of blocks at level 2 at timestep 21 is 21
-Number of blocks at level 3 at timestep 21 is 204
-Number of blocks at level 4 at timestep 21 is 732
-Number of blocks at level 5 at timestep 21 is 3104
-Total number of blocks at timestep 21 is 4061
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 22 is 0
-Number of blocks at level 1 at timestep 22 is 0
-Number of blocks at level 2 at timestep 22 is 24
-Number of blocks at level 3 at timestep 22 is 160
-Number of blocks at level 4 at timestep 22 is 838
-Number of blocks at level 5 at timestep 22 is 3536
-Total number of blocks at timestep 22 is 4558
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 23 is 0
-Number of blocks at level 1 at timestep 23 is 0
-Number of blocks at level 2 at timestep 23 is 17
-Number of blocks at level 3 at timestep 23 is 201
-Number of blocks at level 4 at timestep 23 is 913
-Number of blocks at level 5 at timestep 23 is 3896
-Total number of blocks at timestep 23 is 5027
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 24 is 0
-Number of blocks at level 1 at timestep 24 is 0
-Number of blocks at level 2 at timestep 24 is 17
-Number of blocks at level 3 at timestep 24 is 191
-Number of blocks at level 4 at timestep 24 is 942
-Number of blocks at level 5 at timestep 24 is 4304
-Total number of blocks at timestep 24 is 5454
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 25 is 0
-Number of blocks at level 1 at timestep 25 is 0
-Number of blocks at level 2 at timestep 25 is 17
-Number of blocks at level 3 at timestep 25 is 182
-Number of blocks at level 4 at timestep 25 is 981
-Number of blocks at level 5 at timestep 25 is 4568
-Total number of blocks at timestep 25 is 5748
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 26 is 0
-Number of blocks at level 1 at timestep 26 is 0
-Number of blocks at level 2 at timestep 26 is 14
-Number of blocks at level 3 at timestep 26 is 201
-Number of blocks at level 4 at timestep 26 is 1015
-Number of blocks at level 5 at timestep 26 is 4616
-Total number of blocks at timestep 26 is 5846
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 27 is 0
-Number of blocks at level 1 at timestep 27 is 0
-Number of blocks at level 2 at timestep 27 is 15
-Number of blocks at level 3 at timestep 27 is 193
-Number of blocks at level 4 at timestep 27 is 1018
-Number of blocks at level 5 at timestep 27 is 4592
-Total number of blocks at timestep 27 is 5818
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 28 is 0
-Number of blocks at level 1 at timestep 28 is 0
-Number of blocks at level 2 at timestep 28 is 15
-Number of blocks at level 3 at timestep 28 is 201
-Number of blocks at level 4 at timestep 28 is 969
-Number of blocks at level 5 at timestep 28 is 4472
-Total number of blocks at timestep 28 is 5657
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 29 is 0
-Number of blocks at level 1 at timestep 29 is 0
-Number of blocks at level 2 at timestep 29 is 21
-Number of blocks at level 3 at timestep 29 is 162
-Number of blocks at level 4 at timestep 29 is 927
-Number of blocks at level 5 at timestep 29 is 4232
-Total number of blocks at timestep 29 is 5342
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 30 is 0
-Number of blocks at level 1 at timestep 30 is 0
-Number of blocks at level 2 at timestep 30 is 21
-Number of blocks at level 3 at timestep 30 is 178
-Number of blocks at level 4 at timestep 30 is 835
-Number of blocks at level 5 at timestep 30 is 3944
-Total number of blocks at timestep 30 is 4978
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 31 is 0
-Number of blocks at level 1 at timestep 31 is 1
-Number of blocks at level 2 at timestep 31 is 18
-Number of blocks at level 3 at timestep 31 is 159
-Number of blocks at level 4 at timestep 31 is 721
-Number of blocks at level 5 at timestep 31 is 3512
-Total number of blocks at timestep 31 is 4411
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 32 is 0
-Number of blocks at level 1 at timestep 32 is 1
-Number of blocks at level 2 at timestep 32 is 24
-Number of blocks at level 3 at timestep 32 is 132
-Number of blocks at level 4 at timestep 32 is 622
-Number of blocks at level 5 at timestep 32 is 2960
-Total number of blocks at timestep 32 is 3739
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 33 is 0
-Number of blocks at level 1 at timestep 33 is 1
-Number of blocks at level 2 at timestep 33 is 30
-Number of blocks at level 3 at timestep 33 is 110
-Number of blocks at level 4 at timestep 33 is 474
-Number of blocks at level 5 at timestep 33 is 2480
-Total number of blocks at timestep 33 is 3095
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 34 is 0
-Number of blocks at level 1 at timestep 34 is 1
-Number of blocks at level 2 at timestep 34 is 30
-Number of blocks at level 3 at timestep 34 is 126
-Number of blocks at level 4 at timestep 34 is 421
-Number of blocks at level 5 at timestep 34 is 1880
-Total number of blocks at timestep 34 is 2458
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 35 is 0
-Number of blocks at level 1 at timestep 35 is 1
-Number of blocks at level 2 at timestep 35 is 36
-Number of blocks at level 3 at timestep 35 is 93
-Number of blocks at level 4 at timestep 35 is 370
-Number of blocks at level 5 at timestep 35 is 1328
-Total number of blocks at timestep 35 is 1828
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 36 is 0
-Number of blocks at level 1 at timestep 36 is 4
-Number of blocks at level 2 at timestep 36 is 19
-Number of blocks at level 3 at timestep 36 is 67
-Number of blocks at level 4 at timestep 36 is 193
-Number of blocks at level 5 at timestep 36 is 824
-Total number of blocks at timestep 36 is 1107
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 37 is 0
-Number of blocks at level 1 at timestep 37 is 4
-Number of blocks at level 2 at timestep 37 is 22
-Number of blocks at level 3 at timestep 37 is 57
-Number of blocks at level 4 at timestep 37 is 117
-Number of blocks at level 5 at timestep 37 is 536
-Total number of blocks at timestep 37 is 736
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 38 is 0
-Number of blocks at level 1 at timestep 38 is 4
-Number of blocks at level 2 at timestep 38 is 25
-Number of blocks at level 3 at timestep 38 is 43
-Number of blocks at level 4 at timestep 38 is 70
-Number of blocks at level 5 at timestep 38 is 272
-Total number of blocks at timestep 38 is 414
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 39 is 0
-Number of blocks at level 1 at timestep 39 is 4
-Number of blocks at level 2 at timestep 39 is 28
-Number of blocks at level 3 at timestep 39 is 22
-Number of blocks at level 4 at timestep 39 is 61
-Number of blocks at level 5 at timestep 39 is 152
-Total number of blocks at timestep 39 is 267
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 40 is 0
-Number of blocks at level 1 at timestep 40 is 4
-Number of blocks at level 2 at timestep 40 is 28
-Number of blocks at level 3 at timestep 40 is 28
-Number of blocks at level 4 at timestep 40 is 28
-Number of blocks at level 5 at timestep 40 is 32
-Total number of blocks at timestep 40 is 120
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 41 is 0
-Number of blocks at level 1 at timestep 41 is 7
-Number of blocks at level 2 at timestep 41 is 7
-Number of blocks at level 3 at timestep 41 is 7
-Number of blocks at level 4 at timestep 41 is 7
-Number of blocks at level 5 at timestep 41 is 8
-Total number of blocks at timestep 41 is 36
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 42 is 1
-Number of blocks at level 1 at timestep 42 is 0
-Number of blocks at level 2 at timestep 42 is 0
-Number of blocks at level 3 at timestep 42 is 0
-Number of blocks at level 4 at timestep 42 is 0
-Number of blocks at level 5 at timestep 42 is 0
-Total number of blocks at timestep 42 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 43 is 1
-Number of blocks at level 1 at timestep 43 is 0
-Number of blocks at level 2 at timestep 43 is 0
-Number of blocks at level 3 at timestep 43 is 0
-Number of blocks at level 4 at timestep 43 is 0
-Number of blocks at level 5 at timestep 43 is 0
-Total number of blocks at timestep 43 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 44 is 1
-Number of blocks at level 1 at timestep 44 is 0
-Number of blocks at level 2 at timestep 44 is 0
-Number of blocks at level 3 at timestep 44 is 0
-Number of blocks at level 4 at timestep 44 is 0
-Number of blocks at level 5 at timestep 44 is 0
-Total number of blocks at timestep 44 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 45 is 1
-Number of blocks at level 1 at timestep 45 is 0
-Number of blocks at level 2 at timestep 45 is 0
-Number of blocks at level 3 at timestep 45 is 0
-Number of blocks at level 4 at timestep 45 is 0
-Number of blocks at level 5 at timestep 45 is 0
-Total number of blocks at timestep 45 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 46 is 1
-Number of blocks at level 1 at timestep 46 is 0
-Number of blocks at level 2 at timestep 46 is 0
-Number of blocks at level 3 at timestep 46 is 0
-Number of blocks at level 4 at timestep 46 is 0
-Number of blocks at level 5 at timestep 46 is 0
-Total number of blocks at timestep 46 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 47 is 1
-Number of blocks at level 1 at timestep 47 is 0
-Number of blocks at level 2 at timestep 47 is 0
-Number of blocks at level 3 at timestep 47 is 0
-Number of blocks at level 4 at timestep 47 is 0
-Number of blocks at level 5 at timestep 47 is 0
-Total number of blocks at timestep 47 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 48 is 1
-Number of blocks at level 1 at timestep 48 is 0
-Number of blocks at level 2 at timestep 48 is 0
-Number of blocks at level 3 at timestep 48 is 0
-Number of blocks at level 4 at timestep 48 is 0
-Number of blocks at level 5 at timestep 48 is 0
-Total number of blocks at timestep 48 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 49 is 1
-Number of blocks at level 1 at timestep 49 is 0
-Number of blocks at level 2 at timestep 49 is 0
-Number of blocks at level 3 at timestep 49 is 0
-Number of blocks at level 4 at timestep 49 is 0
-Number of blocks at level 5 at timestep 49 is 0
-Total number of blocks at timestep 49 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
-Number of blocks at level 0 at timestep 50 is 1
-Number of blocks at level 1 at timestep 50 is 0
-Number of blocks at level 2 at timestep 50 is 0
-Number of blocks at level 3 at timestep 50 is 0
-Number of blocks at level 4 at timestep 50 is 0
-Number of blocks at level 5 at timestep 50 is 0
-Total number of blocks at timestep 50 is 1
-comm partners x ave   0.00 min 0 max 0
-comm partners y ave   0.00 min 0 max 0
-comm partners z ave   0.00 min 0 max 0
-comm partners total ave   0.00 min 0 max 0
-comm partners unique ave   0.00 min 0 max 0
-
 
  ================ Start report ===================
 
@@ -669,22 +6,22 @@ comm partners unique ave   0.00 min 0 max 0
           version 1.4.4
 
 Run on 1 ranks arranged in a 1 x 1 x 1 grid
-initial blocks per rank 1 x 1 x 1
+initial blocks per rank 8 x 8 x 8
 block size 4 x 4 x 4
 Initial ranks arranged by RCB across machine
 
-Maximum number of blocks per rank is 32768
-Number of levels of refinement is 5
-Blocks can change by 5 levels per refinement step
+Maximum number of blocks per rank is 512
+Number of levels of refinement is 0
+Blocks can change by 0 levels per refinement step
 
 Blocks will be refined by 1 objects
 
 Object 0 is the surface of a spheroid
 Oject may leave mesh
 Center starting at -1.100000 -1.100000 -1.100000
-Center end at 0.400000 0.400000 0.400000
+Center end at -1.100000 -1.100000 -1.100000
 Moving at 0.030000 0.030000 0.030000 per timestep
-   Rate relative to smallest cell size 7.680000 7.680000 7.680000
+   Rate relative to smallest cell size 1.920000 1.920000 1.920000
 Initial size 1.500000 1.500000 1.500000
 Final size 1.500000 1.500000 1.500000
 Size increasing 0.000000 0.000000 0.000000 per timestep
@@ -702,16 +39,16 @@ Calculate on 40 variables with 7 point stencil
 Communicate 40 variables at a time
 Error tolorance for variable sums is 10^(-8)
 
-Total time for test: ave, std, min, max (sec): 292.238271 0.000000 292.238271 292.238271
+Total time for test: ave, std, min, max (sec): 67.673500 0.000000 67.673500 67.673500
 
 
-Number of malloc calls: ave, std, min, max (sec): 56393803.000000 0.000000 56393803.000000 56393803.000000
+Number of malloc calls: ave, std, min, max (sec): 881227.000000 0.000000 881227.000000 881227.000000
 
-Amount malloced: ave, std, min, max: 4089392932.000000 0.000000 4089392932.000000 4089392932.000000
+Amount malloced: ave, std, min, max: 42733600.000000 0.000000 42733600.000000 42733600.000000
 
-Malloc calls in init: ave, std, min, max (sec): 56393803.000000 0.000000 56393803.000000 56393803.000000
+Malloc calls in init: ave, std, min, max (sec): 881227.000000 0.000000 881227.000000 881227.000000
 
-Amount malloced in init: ave, std, min, max: 4089392932.000000 0.000000 4089392932.000000 4089392932.000000
+Amount malloced in init: ave, std, min, max: 42733600.000000 0.000000 42733600.000000 42733600.000000
 
 Malloc calls in timestepping: ave, std, min, max (sec): 0.000000 0.000000 0.000000 0.000000
 
@@ -721,42 +58,42 @@ Amount malloced in timestepping: ave, std, min, max: 0.000000 0.000000 0.000000 
           Computational Performance
 ---------------------------------------------
 
-     Time: ave, stddev, min, max (sec): 139.903844 0.000000 139.903844 139.903844
+     Time: ave, stddev, min, max (sec): 29.171044 0.000000 29.171044 29.171044
 
-     total GFLOPS:             0.210950
-     Average GFLOPS per rank:  0.210950
+     total GFLOPS:             0.292925
+     Average GFLOPS per rank:  0.292925
 
-     Total floating point ops: 31689011200.000000
+     Total floating point ops: 9175040000.000000
 
-        Adds:                  27162009600.000000
+        Adds:                  7864320000.000000
         Muls:                  0.000000
-        Divides:               4527001600.000000
+        Divides:               1310720000.000000
 
 ---------------------------------------------
            Interblock communication
 ---------------------------------------------
 
-     Time: ave, stddev, min, max (sec): 137.315148 0.000000 137.315148 137.315148
+     Time: ave, stddev, min, max (sec): 37.340511 0.000000 37.340511 37.340511
 
 
 Total communication:
 
                               average    stddev  minimum  maximum
-     Total                  : 137.314016 0.000000 137.314016 137.314016
-     Post IRecv             : 0.000135 0.000000 0.000135 0.000135
+     Total                  : 37.339138 0.000000 37.339138 37.339138
+     Post IRecv             : 0.000147 0.000000 0.000147 0.000147
      Pack faces             : 0.000000 0.000000 0.000000 0.000000
      Send messages          : 0.000000 0.000000 0.000000 0.000000
-     Exchange same level    : 93.549317 0.000000 93.549317 93.549317
-     Exchange diff level    : 35.754499 0.000000 35.754499 35.754499
-     Apply BC               : 7.045619 0.000000 7.045619 7.045619
-     Wait time              : 0.000085 0.000000 0.000085 0.000085
+     Exchange same level    : 30.584661 0.000000 30.584661 30.584661
+     Exchange diff level    : 0.000000 0.000000 0.000000 0.000000
+     Apply BC               : 6.574835 0.000000 6.574835 6.574835
+     Wait time              : 0.000084 0.000000 0.000084 0.000084
      Unpack faces           : 0.000000 0.000000 0.000000 0.000000
 
-     Comm partners total ave: 0.000000 0.000000 0.000000 0.000000
-     Comm partners total min: 0.000000 0.000000 0.000000 0.000000
+     Comm partners total ave: -nan -nan -nan -nan
+     Comm partners total min: 1.000000 0.000000 1.000000 1.000000
      Comm partners total max: 0.000000 0.000000 0.000000 0.000000
-     Comm partners uniq ave : 0.000000 0.000000 0.000000 0.000000
-     Comm partners uniq min : 0.000000 0.000000 0.000000 0.000000
+     Comm partners uniq ave : -nan -nan -nan -nan
+     Comm partners uniq min : 1.000000 0.000000 1.000000 1.000000
      Comm partners uniq max : 0.000000 0.000000 0.000000 0.000000
      Messages received      : 0.000000 0.000000 0.000000 0.000000
      Bytes received         : 0.000000 0.000000 0.000000 0.000000
@@ -764,25 +101,25 @@ Total communication:
      Messages sent          : 0.000000 0.000000 0.000000 0.000000
      Bytes sent             : 0.000000 0.000000 0.000000 0.000000
      Faces sent             : 0.000000 0.000000 0.000000 0.000000
-     Faces exchanged same   : 8093520.000000 0.000000 8093520.000000 8093520.000000
-     Faces exchanged diff   : 3293280.000000 0.000000 3293280.000000 3293280.000000
-     Faces with BC applied  : 458340.000000 0.000000 458340.000000 458340.000000
+     Faces exchanged same   : 2688000.000000 0.000000 2688000.000000 2688000.000000
+     Faces exchanged diff   : 0.000000 0.000000 0.000000 0.000000
+     Faces with BC applied  : 384000.000000 0.000000 384000.000000 384000.000000
 
 X direction communication statistics:
 
                               average    stddev  minimum  maximum
-     Total                  : 36.172842 0.000000 36.172842 36.172842
-     Post IRecv             : 0.000039 0.000000 0.000039 0.000039
+     Total                  : 9.750277 0.000000 9.750277 9.750277
+     Post IRecv             : 0.000041 0.000000 0.000041 0.000041
      Pack faces             : 0.000000 0.000000 0.000000 0.000000
      Send messages          : 0.000000 0.000000 0.000000 0.000000
-     Exchange same level    : 25.429174 0.000000 25.429174 25.429174
-     Exchange diff level    : 8.726571 0.000000 8.726571 8.726571
-     Apply BC               : 1.703999 0.000000 1.703999 1.703999
+     Exchange same level    : 8.129075 0.000000 8.129075 8.129075
+     Exchange diff level    : 0.000000 0.000000 0.000000 0.000000
+     Apply BC               : 1.570843 0.000000 1.570843 1.570843
      Wait time              : 0.000028 0.000000 0.000028 0.000028
      Unpack faces           : 0.000000 0.000000 0.000000 0.000000
 
-     Comm partners average  : 0.000000 0.000000 0.000000 0.000000
-     Comm partners minimum  : 0.000000 0.000000 0.000000 0.000000
+     Comm partners average  : -nan -nan -nan -nan
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
      Comm partners maximum  : 0.000000 0.000000 0.000000 0.000000
      Messages received      : 0.000000 0.000000 0.000000 0.000000
      Bytes received         : 0.000000 0.000000 0.000000 0.000000
@@ -790,25 +127,25 @@ X direction communication statistics:
      Messages sent          : 0.000000 0.000000 0.000000 0.000000
      Bytes sent             : 0.000000 0.000000 0.000000 0.000000
      Faces sent             : 0.000000 0.000000 0.000000 0.000000
-     Faces exchanged same   : 2697840.000000 0.000000 2697840.000000 2697840.000000
-     Faces exchanged diff   : 1097760.000000 0.000000 1097760.000000 1097760.000000
-     Faces with BC applied  : 152780.000000 0.000000 152780.000000 152780.000000
+     Faces exchanged same   : 896000.000000 0.000000 896000.000000 896000.000000
+     Faces exchanged diff   : 0.000000 0.000000 0.000000 0.000000
+     Faces with BC applied  : 128000.000000 0.000000 128000.000000 128000.000000
 
 Y direction communication statistics:
 
                               average    stddev  minimum  maximum
-     Total                  : 46.995000 0.000000 46.995000 46.995000
-     Post IRecv             : 0.000061 0.000000 0.000061 0.000061
+     Total                  : 12.987664 0.000000 12.987664 12.987664
+     Post IRecv             : 0.000050 0.000000 0.000050 0.000050
      Pack faces             : 0.000000 0.000000 0.000000 0.000000
      Send messages          : 0.000000 0.000000 0.000000 0.000000
-     Exchange same level    : 31.505298 0.000000 31.505298 31.505298
-     Exchange diff level    : 12.454232 0.000000 12.454232 12.454232
-     Apply BC               : 2.730440 0.000000 2.730440 2.730440
+     Exchange same level    : 10.374316 0.000000 10.374316 10.374316
+     Exchange diff level    : 0.000000 0.000000 0.000000 0.000000
+     Apply BC               : 2.538272 0.000000 2.538272 2.538272
      Wait time              : 0.000028 0.000000 0.000028 0.000028
      Unpack faces           : 0.000000 0.000000 0.000000 0.000000
 
-     Comm partners average  : 0.000000 0.000000 0.000000 0.000000
-     Comm partners minimum  : 0.000000 0.000000 0.000000 0.000000
+     Comm partners average  : -nan -nan -nan -nan
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
      Comm partners maximum  : 0.000000 0.000000 0.000000 0.000000
      Messages received      : 0.000000 0.000000 0.000000 0.000000
      Bytes received         : 0.000000 0.000000 0.000000 0.000000
@@ -816,25 +153,25 @@ Y direction communication statistics:
      Messages sent          : 0.000000 0.000000 0.000000 0.000000
      Bytes sent             : 0.000000 0.000000 0.000000 0.000000
      Faces sent             : 0.000000 0.000000 0.000000 0.000000
-     Faces exchanged same   : 2697840.000000 0.000000 2697840.000000 2697840.000000
-     Faces exchanged diff   : 1097760.000000 0.000000 1097760.000000 1097760.000000
-     Faces with BC applied  : 152780.000000 0.000000 152780.000000 152780.000000
+     Faces exchanged same   : 896000.000000 0.000000 896000.000000 896000.000000
+     Faces exchanged diff   : 0.000000 0.000000 0.000000 0.000000
+     Faces with BC applied  : 128000.000000 0.000000 128000.000000 128000.000000
 
 Z direction communication statistics:
 
                               average    stddev  minimum  maximum
-     Total                  : 54.146174 0.000000 54.146174 54.146174
-     Post IRecv             : 0.000035 0.000000 0.000035 0.000035
+     Total                  : 14.601197 0.000000 14.601197 14.601197
+     Post IRecv             : 0.000056 0.000000 0.000056 0.000056
      Pack faces             : 0.000000 0.000000 0.000000 0.000000
      Send messages          : 0.000000 0.000000 0.000000 0.000000
-     Exchange same level    : 36.614844 0.000000 36.614844 36.614844
-     Exchange diff level    : 14.573696 0.000000 14.573696 14.573696
-     Apply BC               : 2.611180 0.000000 2.611180 2.611180
-     Wait time              : 0.000029 0.000000 0.000029 0.000029
+     Exchange same level    : 12.081270 0.000000 12.081270 12.081270
+     Exchange diff level    : 0.000000 0.000000 0.000000 0.000000
+     Apply BC               : 2.465720 0.000000 2.465720 2.465720
+     Wait time              : 0.000028 0.000000 0.000028 0.000028
      Unpack faces           : 0.000000 0.000000 0.000000 0.000000
 
-     Comm partners average  : 0.000000 0.000000 0.000000 0.000000
-     Comm partners minimum  : 0.000000 0.000000 0.000000 0.000000
+     Comm partners average  : -nan -nan -nan -nan
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
      Comm partners maximum  : 0.000000 0.000000 0.000000 0.000000
      Messages received      : 0.000000 0.000000 0.000000 0.000000
      Bytes received         : 0.000000 0.000000 0.000000 0.000000
@@ -842,19 +179,19 @@ Z direction communication statistics:
      Messages sent          : 0.000000 0.000000 0.000000 0.000000
      Bytes sent             : 0.000000 0.000000 0.000000 0.000000
      Faces sent             : 0.000000 0.000000 0.000000 0.000000
-     Faces exchanged same   : 2697840.000000 0.000000 2697840.000000 2697840.000000
-     Faces exchanged diff   : 1097760.000000 0.000000 1097760.000000 1097760.000000
-     Faces with BC applied  : 152780.000000 0.000000 152780.000000 152780.000000
+     Faces exchanged same   : 896000.000000 0.000000 896000.000000 896000.000000
+     Faces exchanged diff   : 0.000000 0.000000 0.000000 0.000000
+     Faces with BC applied  : 128000.000000 0.000000 128000.000000 128000.000000
 
 ---------------------------------------------
              Gridsum performance
 ---------------------------------------------
 
-     Time: ave, stddev, min, max (sec): 12.154732 0.000000 12.154732 12.154732
+     Time: ave, stddev, min, max (sec): 1.032230 0.000000 1.032230 1.032230
 
-        red : ave, stddev, min, max (sec): 0.011574 0.000000 0.011574 0.011574
+        red : ave, stddev, min, max (sec): 0.004358 0.000000 0.004358 0.004358
 
-        calc: ave, stddev, min, max (sec): 12.131906 0.000000 12.131906 12.131906
+        calc: ave, stddev, min, max (sec): 1.023203 0.000000 1.023203 1.023203
 
      total number:             8000
      number per timestep:      40
@@ -863,19 +200,19 @@ Z direction communication statistics:
                Mesh Refinement
 ---------------------------------------------
 
-     Time: ave, stddev, min, max (sec): 2.864296 0.000000 2.864296 2.864296
+     Time: ave, stddev, min, max (sec): 0.129396 0.000000 0.129396 0.129396
 
-     Number of refinement steps: 51
+     Number of refinement steps: 0
 
      Number of load balance steps: 0
 
      Number of redistributing steps: 0
 
-     Total blocks           : 1768360
-     Blocks/timestep ave, min, max : 1768.360000 1 5846
-     Max blocks on a processor at any time: 7954
-     total blocks split     : 4681.000000
-     total blocks reformed  : 4681.000000
+     Total blocks           : 512000
+     Blocks/timestep ave, min, max : 512.000000 512 512
+     Max blocks on a processor at any time: 512
+     total blocks split     : 0.000000
+     total blocks reformed  : 0.000000
 
      total blocks moved     : 0.000000
      total moved load bal   : 0.000000
@@ -883,26 +220,26 @@ Z direction communication statistics:
      total moved coasening  : 0.000000
                               average    stddev  minimum  maximum
      Per processor:
-     total blocks split     : 4681.000000 0.000000 4681.000000 4681.000000
-     total blocks reformed  : 4681.000000 0.000000 4681.000000 4681.000000
+     total blocks split     : 0.000000 0.000000 0.000000 0.000000
+     total blocks reformed  : 0.000000 0.000000 0.000000 0.000000
      Total blocks moved     : 0.000000 0.000000 0.000000 0.000000
      Blocks moved load bal  : 0.000000 0.000000 0.000000 0.000000
      Blocks moved redistribu: 0.000000 0.000000 0.000000 0.000000
      Blocks moved coarsening: 0.000000 0.000000 0.000000 0.000000
      Time:
-        compare objects     : 0.023411 0.000000 0.023411 0.023411
-        mark refine/coarsen : 0.029711 0.000000 0.029711 0.029711
-        communicate block 1 : 0.000116 0.000000 0.000116 0.000116
-        split blocks        : 1.444787 0.000000 1.444787 1.444787
-        communicate block 2 : 0.006407 0.000000 0.006407 0.006407
-        sync time           : 0.003083 0.000000 0.003083 0.003083
-        misc time           : 0.012104 0.000000 0.012104 0.012104
-        total coarsen blocks: 1.094236 0.000000 1.094236 1.094236
-           coarsen blocks   : 1.094215 0.000000 1.094215 1.094215
+        compare objects     : 0.000000 0.000000 0.000000 0.000000
+        mark refine/coarsen : 0.000000 0.000000 0.000000 0.000000
+        communicate block 1 : 0.000000 0.000000 0.000000 0.000000
+        split blocks        : 0.000000 0.000000 0.000000 0.000000
+        communicate block 2 : 0.000000 0.000000 0.000000 0.000000
+        sync time           : 0.000000 0.000000 0.000000 0.000000
+        misc time           : 0.000000 0.000000 0.000000 0.000000
+        total coarsen blocks: 0.000000 0.000000 0.000000 0.000000
+           coarsen blocks   : 0.000000 0.000000 0.000000 0.000000
            pack blocks      : 0.000000 0.000000 0.000000 0.000000
            move blocks      : 0.000000 0.000000 0.000000 0.000000
            unpack blocks    : 0.000000 0.000000 0.000000 0.000000
-        total redistribute  : 0.000045 0.000000 0.000045 0.000045
+        total redistribute  : 0.000000 0.000000 0.000000 0.000000
            choose blocks    : 0.000000 0.000000 0.000000 0.000000
            pack blocks      : 0.000000 0.000000 0.000000 0.000000
            move blocks      : 0.000000 0.000000 0.000000 0.000000
@@ -925,4 +262,4 @@ Z direction communication statistics:
      Number of plot steps: 0
 
  ================== End report ===================
-Summary: ranks 1 ts 50 time 292.238271 calc 139.903844 max comm 137.315148 min red 12.154732 refine 2.864296 blocks/ts 1768.360000 max_blocks 7954
+Summary: ranks 1 ts 50 time 67.673500 calc 29.171044 max comm 37.340511 min red 1.032230 refine 0.129396 blocks/ts 512.000000 max_blocks 512
