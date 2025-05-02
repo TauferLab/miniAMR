@@ -2,7 +2,7 @@
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -15,26 +15,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 22
-Number of shift duplicates : 14
+Number of first occurrences: 1
+Number of shift duplicates : 0
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
-Number of diffs needed: 1
-Offset for data: 240
-Number of first occurrence chunks: 50
-Prior start offset: 96
-Wrote table entry (0,14) at offset 120
+Number of diffs needed: 0
+Offset for data: 36
+Number of first occurrence chunks: 64
+Prior start offset: 4
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 1024
 Chunk size: 16
-Num first ocur: 22
-Num shift dupl: 14
-Num prior diffs: 1
+Num first ocur: 1
+Num shift dupl: 0
+Num prior diffs: 0
 -----------------------Copy-----------------------
 ==================================================
 Done finalizing Kokkos
@@ -42,7 +41,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -56,16 +55,15 @@ Should be fuzzy hash
 ---------------------Collect----------------------
 Setup counters
 Number of first occurrences: 1
-Number of shift duplicates : 62
+Number of shift duplicates : 0
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
-Number of diffs needed: 1
-Offset for data: 540
-Number of first occurrence chunks: 2
-Prior start offset: 12
-Wrote table entry (0,62) at offset 36
+Number of diffs needed: 0
+Offset for data: 36
+Number of first occurrence chunks: 64
+Prior start offset: 4
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
@@ -73,8 +71,8 @@ Diff ID: 0
 Data len: 1024
 Chunk size: 16
 Num first ocur: 1
-Num shift dupl: 62
-Num prior diffs: 1
+Num shift dupl: 0
+Num prior diffs: 0
 -----------------------Copy-----------------------
 ==================================================
 Done finalizing Kokkos
@@ -82,7 +80,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -96,16 +94,15 @@ Should be fuzzy hash
 ---------------------Collect----------------------
 Setup counters
 Number of first occurrences: 1
-Number of shift duplicates : 63
+Number of shift duplicates : 0
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
-Number of diffs needed: 1
-Offset for data: 548
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,63) at offset 36
+Number of diffs needed: 0
+Offset for data: 36
+Number of first occurrence chunks: 64
+Prior start offset: 4
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
@@ -113,8 +110,8 @@ Diff ID: 0
 Data len: 1024
 Chunk size: 16
 Num first ocur: 1
-Num shift dupl: 63
-Num prior diffs: 1
+Num shift dupl: 0
+Num prior diffs: 0
 -----------------------Copy-----------------------
 ==================================================
 Done finalizing Kokkos
@@ -122,7 +119,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -135,25 +132,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 63
+Number of first occurrences: 14
+Number of shift duplicates : 19
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 548
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,63) at offset 36
+Offset for data: 248
+Number of first occurrence chunks: 45
+Prior start offset: 64
+Wrote table entry (0,19) at offset 88
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 1024
 Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 63
+Num first ocur: 14
+Num shift dupl: 19
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -162,7 +159,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -175,25 +172,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 63
+Number of first occurrences: 6
+Number of shift duplicates : 57
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 548
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,63) at offset 36
+Offset for data: 520
+Number of first occurrence chunks: 7
+Prior start offset: 32
+Wrote table entry (0,57) at offset 56
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 1024
 Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 63
+Num first ocur: 6
+Num shift dupl: 57
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -202,7 +199,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -242,7 +239,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -282,7 +279,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -322,1251 +319,11 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
 File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0008_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 1406
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 11296
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,1406) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 22528
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 1406
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0009_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 1406
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 11296
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,1406) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 22528
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 1406
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0010_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 1406
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 11296
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,1406) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 22528
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 1406
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0011_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 4094
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 32800
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,4094) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 65536
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 4094
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0012_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 4093
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 32792
-Number of first occurrence chunks: 3
-Prior start offset: 16
-Wrote table entry (0,4093) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 65536
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 4093
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0013_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 4093
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 32796
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,4093) at offset 44
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 65536
-Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 4093
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0014_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 5437
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 43548
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,5437) at offset 44
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 87040
-Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 5437
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0015_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 6781
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 54300
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,6781) at offset 44
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 108544
-Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 6781
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0016_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 6782
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 54304
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,6782) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 108544
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 6782
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0017_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 10814
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 86560
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,10814) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 173056
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 10814
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0018_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 10815
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 86564
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,10815) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 173056
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 10815
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0019_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 12159
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 97316
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,12159) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 194560
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 12159
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0020_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 13503
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 108068
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,13503) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 216064
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 13503
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0021_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 16191
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 129572
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,16191) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 259072
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 16191
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0022_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 16639
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 133156
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,16639) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 266240
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 16639
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0023_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 16639
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 133156
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,16639) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 266240
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 16639
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0024_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 19327
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 154660
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,19327) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 309248
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 19327
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0025_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 19327
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 154660
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,19327) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 309248
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 19327
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0026_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 19327
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 154660
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,19327) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 309248
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 19327
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0027_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 19327
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 154660
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,19327) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 309248
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 19327
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0028_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 18878
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 151072
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,18878) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 302080
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 18878
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0029_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 18877
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 151068
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,18877) at offset 44
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 302080
-Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 18877
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0030_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 16189
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 129564
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,16189) at offset 44
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 259072
-Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 16189
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0031_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 16190
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 129568
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,16190) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 259072
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 16190
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0032_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 12159
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 97316
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,12159) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 194560
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 12159
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0033_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 12159
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 97316
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,12159) at offset 36
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 194560
-Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 12159
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0034_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 8126
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 65056
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,8126) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 130048
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 8126
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0035_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 8125
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 65052
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,8125) at offset 44
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 130048
-Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 8125
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0036_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 5437
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 43548
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,5437) at offset 44
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 87040
-Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 5437
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0037_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 4093
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 32796
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,4093) at offset 44
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 65536
-Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 4093
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0038_pe000000.bin
-Read diff files
-Number of diffs: 1
-Should be fuzzy hash
-==================================================
-----------------------Setup-----------------------
-----------------------Dedup-----------------------
----------------------Collect----------------------
-Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 4093
-Count distinct bytes
-Setup diff bitset
-Count repeat bytes
-Collect prior counter
-Number of diffs needed: 1
-Offset for data: 32792
-Number of first occurrence chunks: 3
-Prior start offset: 16
-Wrote table entry (0,4093) at offset 40
-Wrote shared metadata
-Finished collecting data
-Ref ID: 0
-Diff ID: 0
-Data len: 65536
-Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 4093
-Num prior diffs: 1
------------------------Copy-----------------------
-==================================================
-Done finalizing Kokkos
-------------------------------------------------------
-Chunk size: 16
-Start level 13
-Fuzzy hash? 1
-Error: 0.1
-Data Type d
-Algorithm:  tree
-Numb diffs: 1
-File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0039_pe000000.bin
 Read diff files
 Number of diffs: 1
 Should be fuzzy hash
@@ -1602,7 +359,1247 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0009_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 100
+Number of shift duplicates : 1247
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 10416
+Number of first occurrence chunks: 161
+Prior start offset: 408
+Wrote table entry (0,1247) at offset 432
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 22528
+Chunk size: 16
+Num first ocur: 100
+Num shift dupl: 1247
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0010_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 99
+Number of shift duplicates : 1231
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 10284
+Number of first occurrence chunks: 177
+Prior start offset: 404
+Wrote table entry (0,1231) at offset 428
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 22528
+Chunk size: 16
+Num first ocur: 99
+Num shift dupl: 1231
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0011_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 99
+Number of shift duplicates : 3960
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 32116
+Number of first occurrence chunks: 136
+Prior start offset: 404
+Wrote table entry (0,3960) at offset 428
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 65536
+Chunk size: 16
+Num first ocur: 99
+Num shift dupl: 3960
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0012_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 117
+Number of shift duplicates : 3928
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 31932
+Number of first occurrence chunks: 168
+Prior start offset: 476
+Wrote table entry (0,3928) at offset 500
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 65536
+Chunk size: 16
+Num first ocur: 117
+Num shift dupl: 3928
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0013_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 117
+Number of shift duplicates : 3942
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 32044
+Number of first occurrence chunks: 154
+Prior start offset: 476
+Wrote table entry (0,3942) at offset 500
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 65536
+Chunk size: 16
+Num first ocur: 117
+Num shift dupl: 3942
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0014_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 114
+Number of shift duplicates : 5286
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 42784
+Number of first occurrence chunks: 154
+Prior start offset: 464
+Wrote table entry (0,5286) at offset 488
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 87040
+Chunk size: 16
+Num first ocur: 114
+Num shift dupl: 5286
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0015_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 115
+Number of shift duplicates : 6635
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 53580
+Number of first occurrence chunks: 149
+Prior start offset: 468
+Wrote table entry (0,6635) at offset 492
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 108544
+Chunk size: 16
+Num first ocur: 115
+Num shift dupl: 6635
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0016_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 103
+Number of shift duplicates : 6637
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 53548
+Number of first occurrence chunks: 147
+Prior start offset: 420
+Wrote table entry (0,6637) at offset 444
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 108544
+Chunk size: 16
+Num first ocur: 103
+Num shift dupl: 6637
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0017_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 85
+Number of shift duplicates : 10695
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 85940
+Number of first occurrence chunks: 121
+Prior start offset: 348
+Wrote table entry (0,10695) at offset 372
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 173056
+Chunk size: 16
+Num first ocur: 85
+Num shift dupl: 10695
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0018_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 99
+Number of shift duplicates : 10689
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 85948
+Number of first occurrence chunks: 127
+Prior start offset: 404
+Wrote table entry (0,10689) at offset 428
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 173056
+Chunk size: 16
+Num first ocur: 99
+Num shift dupl: 10689
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0019_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 76
+Number of shift duplicates : 12055
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 96784
+Number of first occurrence chunks: 105
+Prior start offset: 312
+Wrote table entry (0,12055) at offset 336
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 194560
+Chunk size: 16
+Num first ocur: 76
+Num shift dupl: 12055
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0020_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 78
+Number of shift duplicates : 13393
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 107496
+Number of first occurrence chunks: 111
+Prior start offset: 320
+Wrote table entry (0,13393) at offset 344
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 216064
+Chunk size: 16
+Num first ocur: 78
+Num shift dupl: 13393
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0021_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 92
+Number of shift duplicates : 16062
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 128904
+Number of first occurrence chunks: 130
+Prior start offset: 376
+Wrote table entry (0,16062) at offset 400
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 259072
+Chunk size: 16
+Num first ocur: 92
+Num shift dupl: 16062
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0022_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 103
+Number of shift duplicates : 16491
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 132380
+Number of first occurrence chunks: 149
+Prior start offset: 420
+Wrote table entry (0,16491) at offset 444
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 266240
+Chunk size: 16
+Num first ocur: 103
+Num shift dupl: 16491
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0023_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 112
+Number of shift duplicates : 16477
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 132304
+Number of first occurrence chunks: 163
+Prior start offset: 456
+Wrote table entry (0,16477) at offset 480
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 266240
+Chunk size: 16
+Num first ocur: 112
+Num shift dupl: 16477
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0024_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 91
+Number of shift duplicates : 19187
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 153900
+Number of first occurrence chunks: 141
+Prior start offset: 372
+Wrote table entry (0,19187) at offset 396
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 309248
+Chunk size: 16
+Num first ocur: 91
+Num shift dupl: 19187
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0025_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 88
+Number of shift duplicates : 19200
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 153992
+Number of first occurrence chunks: 128
+Prior start offset: 360
+Wrote table entry (0,19200) at offset 384
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 309248
+Chunk size: 16
+Num first ocur: 88
+Num shift dupl: 19200
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0026_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 92
+Number of shift duplicates : 19172
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 153784
+Number of first occurrence chunks: 156
+Prior start offset: 376
+Wrote table entry (0,19172) at offset 400
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 309248
+Chunk size: 16
+Num first ocur: 92
+Num shift dupl: 19172
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0027_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 98
+Number of shift duplicates : 19183
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 153896
+Number of first occurrence chunks: 145
+Prior start offset: 400
+Wrote table entry (0,19183) at offset 424
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 309248
+Chunk size: 16
+Num first ocur: 98
+Num shift dupl: 19183
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0028_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 91
+Number of shift duplicates : 18719
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 150156
+Number of first occurrence chunks: 161
+Prior start offset: 372
+Wrote table entry (0,18719) at offset 396
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 302080
+Chunk size: 16
+Num first ocur: 91
+Num shift dupl: 18719
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0029_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 128
+Number of shift duplicates : 18696
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 150120
+Number of first occurrence chunks: 184
+Prior start offset: 520
+Wrote table entry (0,18696) at offset 544
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 302080
+Chunk size: 16
+Num first ocur: 128
+Num shift dupl: 18696
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0030_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 138
+Number of shift duplicates : 15991
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 128520
+Number of first occurrence chunks: 201
+Prior start offset: 560
+Wrote table entry (0,15991) at offset 584
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 259072
+Chunk size: 16
+Num first ocur: 138
+Num shift dupl: 15991
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0031_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 126
+Number of shift duplicates : 16017
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 128680
+Number of first occurrence chunks: 175
+Prior start offset: 512
+Wrote table entry (0,16017) at offset 536
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 259072
+Chunk size: 16
+Num first ocur: 126
+Num shift dupl: 16017
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0032_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 118
+Number of shift duplicates : 11964
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 96224
+Number of first occurrence chunks: 196
+Prior start offset: 480
+Wrote table entry (0,11964) at offset 504
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 194560
+Chunk size: 16
+Num first ocur: 118
+Num shift dupl: 11964
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0033_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 99
+Number of shift duplicates : 12014
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 96548
+Number of first occurrence chunks: 146
+Prior start offset: 404
+Wrote table entry (0,12014) at offset 428
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 194560
+Chunk size: 16
+Num first ocur: 99
+Num shift dupl: 12014
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0034_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 103
+Number of shift duplicates : 7935
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 63932
+Number of first occurrence chunks: 193
+Prior start offset: 420
+Wrote table entry (0,7935) at offset 444
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 130048
+Chunk size: 16
+Num first ocur: 103
+Num shift dupl: 7935
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0035_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 127
+Number of shift duplicates : 7920
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 63908
+Number of first occurrence chunks: 208
+Prior start offset: 516
+Wrote table entry (0,7920) at offset 540
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 130048
+Chunk size: 16
+Num first ocur: 127
+Num shift dupl: 7920
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0036_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 134
+Number of shift duplicates : 5220
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 42336
+Number of first occurrence chunks: 220
+Prior start offset: 544
+Wrote table entry (0,5220) at offset 568
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 87040
+Chunk size: 16
+Num first ocur: 134
+Num shift dupl: 5220
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0037_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 124
+Number of shift duplicates : 3885
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 31616
+Number of first occurrence chunks: 211
+Prior start offset: 504
+Wrote table entry (0,3885) at offset 528
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 65536
+Chunk size: 16
+Num first ocur: 124
+Num shift dupl: 3885
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0038_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 112
+Number of shift duplicates : 3912
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 31784
+Number of first occurrence chunks: 184
+Prior start offset: 456
+Wrote table entry (0,3912) at offset 480
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 65536
+Chunk size: 16
+Num first ocur: 112
+Num shift dupl: 3912
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
+Data Type d
+Algorithm:  tree
+Numb diffs: 1
+File 0: /home/zmalk/Research/dynamic_chunking/miniAMR/ref/dump_ts0039_pe000000.bin
+Read diff files
+Number of diffs: 1
+Should be fuzzy hash
+==================================================
+----------------------Setup-----------------------
+----------------------Dedup-----------------------
+---------------------Collect----------------------
+Setup counters
+Number of first occurrences: 99
+Number of shift duplicates : 1228
+Count distinct bytes
+Setup diff bitset
+Count repeat bytes
+Collect prior counter
+Number of diffs needed: 1
+Offset for data: 10260
+Number of first occurrence chunks: 180
+Prior start offset: 404
+Wrote table entry (0,1228) at offset 428
+Wrote shared metadata
+Finished collecting data
+Ref ID: 0
+Diff ID: 0
+Data len: 22528
+Chunk size: 16
+Num first ocur: 99
+Num shift dupl: 1228
+Num prior diffs: 1
+-----------------------Copy-----------------------
+==================================================
+Done finalizing Kokkos
+------------------------------------------------------
+Chunk size: 16
+Start level 13
+Fuzzy hash? 1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1615,25 +1612,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 1406
+Number of first occurrences: 111
+Number of shift duplicates : 1230
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 11296
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,1406) at offset 40
+Offset for data: 10324
+Number of first occurrence chunks: 178
+Prior start offset: 452
+Wrote table entry (0,1230) at offset 476
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 22528
 Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 1406
+Num first ocur: 111
+Num shift dupl: 1230
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -1642,7 +1639,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1655,25 +1652,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 2
-Number of shift duplicates : 1406
+Number of first occurrences: 116
+Number of shift duplicates : 1241
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 11296
-Number of first occurrence chunks: 2
-Prior start offset: 16
-Wrote table entry (0,1406) at offset 40
+Offset for data: 10432
+Number of first occurrence chunks: 167
+Prior start offset: 472
+Wrote table entry (0,1241) at offset 496
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 22528
 Chunk size: 16
-Num first ocur: 2
-Num shift dupl: 1406
+Num first ocur: 116
+Num shift dupl: 1241
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -1682,7 +1679,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1695,25 +1692,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 4
-Number of shift duplicates : 59
+Number of first occurrences: 12
+Number of shift duplicates : 44
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 528
-Number of first occurrence chunks: 5
-Prior start offset: 24
-Wrote table entry (0,59) at offset 48
+Offset for data: 440
+Number of first occurrence chunks: 20
+Prior start offset: 56
+Wrote table entry (0,44) at offset 80
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 1024
 Chunk size: 16
-Num first ocur: 4
-Num shift dupl: 59
+Num first ocur: 12
+Num shift dupl: 44
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -1722,7 +1719,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1735,25 +1732,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 3
-Number of shift duplicates : 61
+Number of first occurrences: 12
+Number of shift duplicates : 44
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 540
-Number of first occurrence chunks: 3
-Prior start offset: 20
-Wrote table entry (0,61) at offset 44
+Offset for data: 440
+Number of first occurrence chunks: 20
+Prior start offset: 56
+Wrote table entry (0,44) at offset 80
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 1024
 Chunk size: 16
-Num first ocur: 3
-Num shift dupl: 61
+Num first ocur: 12
+Num shift dupl: 44
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -1762,7 +1759,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1775,25 +1772,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 63
+Number of first occurrences: 12
+Number of shift duplicates : 46
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 548
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,63) at offset 36
+Offset for data: 456
+Number of first occurrence chunks: 18
+Prior start offset: 56
+Wrote table entry (0,46) at offset 80
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 1024
 Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 63
+Num first ocur: 12
+Num shift dupl: 46
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -1802,7 +1799,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1815,25 +1812,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 63
+Number of first occurrences: 11
+Number of shift duplicates : 48
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 548
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,63) at offset 36
+Offset for data: 468
+Number of first occurrence chunks: 16
+Prior start offset: 52
+Wrote table entry (0,48) at offset 76
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 1024
 Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 63
+Num first ocur: 11
+Num shift dupl: 48
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -1842,7 +1839,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1855,25 +1852,25 @@ Should be fuzzy hash
 ----------------------Dedup-----------------------
 ---------------------Collect----------------------
 Setup counters
-Number of first occurrences: 1
-Number of shift duplicates : 63
+Number of first occurrences: 6
+Number of shift duplicates : 57
 Count distinct bytes
 Setup diff bitset
 Count repeat bytes
 Collect prior counter
 Number of diffs needed: 1
-Offset for data: 548
-Number of first occurrence chunks: 1
-Prior start offset: 12
-Wrote table entry (0,63) at offset 36
+Offset for data: 520
+Number of first occurrence chunks: 7
+Prior start offset: 32
+Wrote table entry (0,57) at offset 56
 Wrote shared metadata
 Finished collecting data
 Ref ID: 0
 Diff ID: 0
 Data len: 1024
 Chunk size: 16
-Num first ocur: 1
-Num shift dupl: 63
+Num first ocur: 6
+Num shift dupl: 57
 Num prior diffs: 1
 -----------------------Copy-----------------------
 ==================================================
@@ -1882,7 +1879,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1922,7 +1919,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -1962,7 +1959,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
@@ -2002,7 +1999,7 @@ Done finalizing Kokkos
 Chunk size: 16
 Start level 13
 Fuzzy hash? 1
-Error: 0.1
+Error: 1e-05
 Data Type d
 Algorithm:  tree
 Numb diffs: 1
