@@ -25,7 +25,8 @@
     --nx 4 --ny 4 --nz 4 \
     --num_objects 1 \
     --object 2 0 -1.10 -1.10 -1.10 0.030 0.030 0.030 1.5 1.5 1.5 0.0 0.0 0.0 \
-    --num_tsteps 20
+    --num_tsteps 20 \
+    --log
 
   # Test 2  –  NO refinement
   # mpirun -np 8 ma.x \
